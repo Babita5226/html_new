@@ -1,62 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <form>
-        <div class="firstdiv">
-            <div class="form">
-
-                <div>
-                    <label for="">Username</label>
-                    <input type="text" name="uname" placeholder="Enter username">
-                </div>
-                <div>
-                    <label for="">Password</label>
-                    <input type="password" name="pass" placeholder="Enter password">
-                </div>
-                <div>
-                    <label for="">Input Text Label</label>
-                    <input type="text" name="input" placeholder="Enter Here">
-                </div>
-                <div class="rem">
-
-                    <input type="checkbox"><span>Remember me</span>
-                </div>
-                <div class="togglebtn">
-                    <label class="switch"> <input type="checkbox"><span class="slider round"></span></label>
-                    <p>Off</p>
-                </div>
-                <div class="company">
-                    <label for="" >Choose your company name:</label> <br>
-                    <input class="companyoption" type="radio" name="company" value="abc">
-                    <label for="">ABC</label> <br>
-                    <input class="companyoption" type="radio" name="company" value="dits"><label for="">DITS</label> <br>
-                    <input  class="companyoption"type="radio" name="company" value="xyz"><label for="">XYZ</label><br>
-                </div>
-                <div class="tech">
-                    <label for="">Select Your Tech:</label> <br>
-                    <select>
-                        <option  class="techop" value="selecttech">Select Tech--</option>
-                        <option  class="techop" value="React js">React js</option>
-                        <option  class="techop" value="Dot Net">Dot Net</option>
-                        <option  class="techop" value="Angular">Angular</option>
-                        <option   class="techop" value="Web Designing">Web Designing</option>
-                    </select>
-                </div>
-                <div class="btn">
-                    <button class="btn1">Cancel</button>
-                    <button class="btn2">Next</button>
-                </div>
+      <div class="firstdiv">
+        <div class="form">
+          <div>
+            <label for="">Username</label>
+            <input type="text" name="uname" placeholder="Enter username" />
+          </div>
+          <div>
+            <label for="">Password</label>
+            <input type="password" name="pass" placeholder="Enter password" />
+            <p class="psw">Your password is between 4 and 12 characters</p>
+          </div>
+          <label for="">Input Text Label</label>
+          <div class="inputtext">
+            <div class="icon">
+              <p>Typing |</p>
+              <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
             </div>
-        </div>
-    </form>
-</body>
+          </div>
+          <br />
+          <p class="errormsg">Error message informing me of a problem</p>
 
+          <div class="rem">
+            <input type="checkbox"  /><span
+              >Remember me</span
+            >
+          </div>
+          <div class="togglebtn">
+            <input
+              class="offcheck"
+              type="checkbox"
+              name="checkbox"
+              id="toggle"
+            />
+            <label class="switch" for="toggle"> </label>
+            <p>Off</p>
+          </div>
+          <div class="company">
+            <input
+              class="companyoption"
+              type="radio"
+              name="company"
+              value="radio1"
+            />
+            <label for="" style="font-size: small; opacity: 0.9"
+              >Radio selection 1</label
+            >
+            <br />
+            <input
+              class="companyoption"
+              type="radio"
+              name="company"
+              value="radio2"
+            /><label style="font-size: small; opacity: 0.9" for=""
+              >Radio selection 2</label
+            >
+            <br />
+            <input
+              class="companyoption"
+              type="radio"
+              name="company"
+              value="radio3"
+            /><label for="" style="font-size: small; opacity: 0.9"
+              >Radio selection 3</label
+            ><br />
+          </div>
+          <div class="drop">
+            <label for="">Dropdown Title</label> <br />
+            <select>
+              <option class="techop" value="dropdown option1">
+                Dropdown option
+              </option>
+              <option class="techop" value="dropdown option2">
+                Dropdown option 1
+              </option>
+              <option class="techop" value="dropdown option3">
+                Dropdown option 2
+              </option>
+            </select>
+          </div>
+          <div class="btn">
+            <button class="btn1">Cancel</button>
+            <button class="btn2">Next</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
 </html>
