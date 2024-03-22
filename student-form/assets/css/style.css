@@ -18,7 +18,7 @@ div.form {
     border: none;
     background-color: white;
     height: 100vh;
-    width: 30%;
+    width: 29%;
     left: 30%;
     right: 30%;
     padding-left: 50px;
@@ -27,6 +27,8 @@ div.form {
 }
 .form label{
     font-size: 8px;
+    color:   rgb(102, 99, 99);
+    font-weight: 500;
 
 }
 
@@ -51,19 +53,26 @@ input [type=radio],
     font-size: 8px;
     margin-top: -15px;
     margin-bottom: 20px;
+    color:   rgb(102, 99, 99);
+
+}
+.inputlabel{
+  color:  rgb(102, 99, 99);
+  font-weight: 500;
 }
 
 .icon p{
     margin-top: 5px;
     padding: 5px;
     font-size: small;
+    color:  rgb(102, 99, 99) ;
 }
 
       .inputtext{
         position: relative;
         width: 354px;
         height: 37px;
-        border: 2px solid rgba(228, 41, 41, 0.871);
+        border: 2px solid rgba(240, 75, 75, 0.871);
         border-radius: 5px;
         margin-top: 5px;
       } 
@@ -82,11 +91,13 @@ input [type=radio],
     margin-top: -9px;
     margin-bottom: 20px;
     font-size: 10px;
-    color: red;
+    color: rgb(240, 75, 75);
+    opacity: 0.8;
 }
 
 .rem span {
     margin: 10px;
+  color:   rgb(102, 99, 99);
 }
  .togglebtn{
 display: flex;
@@ -96,41 +107,41 @@ display: flex;
     height: 0;
 }
 .togglebtn p{
-    margin-top: 10px;
+    margin-top: 2px;
     margin-left: 10px;
+    color:   rgb(102, 99, 99);
 }
 .switch{
     position: relative;
     display: inline-block;
-    width: 4rem;
-    height: 2rem;
+    width: 35px;
+    height: 17px;
     border: 1px solid #ccc;
     background-color:blue ;
-    border-radius: 2rem;
+    border-radius: 3rem;
     transition: all 0.3s;
 }
 .switch::after{
     position: absolute;
     content: "";
-    background-color: rgb(228, 221, 221);
-    width: 1.8rem;
-    height: 25px;
-    border-radius: 50%;
-    left: .1rem;
+    background-color: whitesmoke;
+    width: 12px;
+    height: 12px;
+    border-radius: 2rem;
+    /* right: 28px; */
+    top: 0.8px;
+    border:1px solid rgb(184, 178, 178); ;
     transition: all 0.3s;
+
 }
 input[type="checkbox"]:checked+.switch{
     background-color: white;
-
 }
-
-  
 .offcheck:checked+.switch::after{
-    translate: 2rem;
+    translate: 1.4rem;
 }
 .offcheck:checked{
     display: none;
-    
 }
 .company input{
     accent-color: rgb(13, 13, 148);
@@ -139,6 +150,7 @@ input[type="checkbox"]:checked+.switch{
 .company{
     margin-top: 10px;
 }
+
 
 .companyoption {
  /* margin: 10px; */
@@ -154,6 +166,9 @@ input[type="checkbox"]:checked+.switch{
     height: 40px;
     border-radius: 5px;
     
+}
+select .techop{
+    color:   rgb(102, 99, 99);
 }
 .btn{
     display: flex;
