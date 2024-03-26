@@ -20,11 +20,20 @@
     />
   </head>
   <body>
-    <div class="btn">
-      <button class="filterbtn">
-        Filters <i class="fa-solid fa-sliders"></i>
-      </button>
-      <button class="addbtn">Add New <i class="fa-solid fa-plus"></i></button>
+    <div class="navbtn">
+      <div class="search">
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <input type="text" placeholder="Search Clients" name="search" />
+      </div>
+
+      <div class="btn">
+        <button class="filterbtn">
+          Filters <i class="fa-solid fa-sliders"></i>
+        </button>
+        <button class="addbtn">Add New <i class="fa-solid fa-plus"></i></button>
+      </div>
     </div>
     <table>
       <tr>
@@ -35,7 +44,7 @@
         <th>$/SF <i class="fa-solid fa-sort"></i></th>
         <th>Type <i class="fa-solid fa-sort"></i></th>
         <th>Date Sold <i class="fa-solid fa-sort"></i></th>
-        <th>Actions <i class="fa-solid fa-sort"></i></th>
+        <th>Actions</th>
       </tr>
       <tr>
         <td class="col1">112 Ocean Avenue</td>
