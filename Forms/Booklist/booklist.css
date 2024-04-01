@@ -1,0 +1,97 @@
+
+.navbar {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 56px;
+  margin-left: -8px;
+}
+
+li {
+  display: inline-block;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.title {
+  color: white;
+  margin: -10px 32px;
+  font-size: 28px;
+}
+
+table {
+  width: 100%;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+
+h1 {
+  margin-left: 20px;
+  margin-top: 80px;
+}
+th {
+  background-color: #04aa6d;
+  color: white;
+}
+
+th,
+td {
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  padding-left: 10px;
+  height: 40px;
+}
+.col2 {
+  color: dodgerblue;
+}
+td {
+  color: #5a5959;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.fa-pen-to-square {
+  color: dodgerblue;
+  margin-right: 5px;
+}
+.fa-trash {
+  color: red;
+  margin-left: 5px;
+}
+
+.pagination {
+  display: inline-block;
+  margin-left: 35%;
+  margin-top: 20px;
+}
+.pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.pagination a.active {
+  background-color: #939090;
+  color: white;
+  border-radius: 5px;
+}
+.fa-sort{
+  margin-left: 3px;
+}
