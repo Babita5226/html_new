@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.tabledata {
+  background-color: #f7f7f7;
+}
+.main {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  padding-top: 8px;
+}
+.nav h2 {
+  font-weight: 500;
+
+  color: rgb(69, 68, 68);
+}
+.fa-angles-right {
+  padding-top: 8px;
+  padding-left: 10px;
+  color: #716e6e;
+}
+.nav h3 {
+  padding-top: 6px;
+  color: rgb(164, 162, 162);
+  font-weight: 500;
+  padding-left: 5px;
+}
+.client {
+  border: 2px solid #e0dada;
+  margin-top: 10px;
+  background-color: white;
+  padding-left: 20px;
+  height: 20%;
+}
+.main-heading {
+  display: flex;
+  flex-direction: row;
+  height: 53px;
+  border-bottom: 2px solid #e0dada;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 11px;
+}
+.main-heading .heading {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(85, 84, 84);
+}
+.main-heading .sub-heading {
+  padding-left: 23px;
+  font-size: 11px;
+  padding-top: 8px;
+  color: #a19e9e;
+}
+.sub-client {
+  display: flex;
+  padding-left: 21px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+.name {
+  display: flex;
+  position: relative;
+}
+.icon {
+  position: absolute;
+  margin-left: 76%;
+  width: 37px;
+  height: 34px;
+  text-align: center;
+  padding-top: 8px;
+  background-color: white;
+  border: 1.5px solid rgb(181, 176, 176);
+  color: #545252;
+}
+
+label {
+  font-weight: 500;
+  color: rgb(58, 57, 57);
+}
+input[type="text"] {
+  border-radius: 18px;
+  padding-left: 10px;
+  height: 34px;
+  width: 50%;
+  padding-top: 5px;
+  margin-left: 60px;
+  border: 1.5px solid rgb(181, 176, 176);
+}
+select {
+  width: 50%;
+  padding-left: 10px;
+  height: 34px;
+  color: gray;
+  padding-top: 5px;
+  border-radius: 18px;
+  margin-top: 1px;
+  margin-left: 73px;
+  background-color: white;
+  border: 1.5px solid rgb(181, 176, 176);
+}
+
+.form1 {
+  width: 50%;
+}
+.form2 {
+  width: 50%;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.sender,
+.receiver {
+  border: 2px solid #e0dada;
+  background-color: white;
+  width: 50%;
+  padding: 15px;
+  height: 70vh;
+}
+.form-detail {
+  padding-left: 27px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.stateicon {
+  display: flex;
+  height: 20px;
+  margin-bottom: 5px;
+}
+.plusicon {
+  border: 1px solid #50799b;
+  height: 24px;
+  width: 24px;
+  padding-top: 3px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #50799b;
+  color: white;
+  margin-left: 9px;
+  margin-top: 5px;
+}
+.fa-plus {
+  font-size: 18px;
+}
+.receiver {
+  margin-left: 20px;
+}
+.inputs {
+  width: 100%;
+  display: flex;
+  margin-bottom: 5px;
+}
+.inputs input {
+  margin-left: 10%;
+}
+.inputs label {
+  width: 20%;
+}
